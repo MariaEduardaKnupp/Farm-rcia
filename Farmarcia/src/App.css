@@ -7,7 +7,7 @@
     --cor-6: #ef97a4;
   }
   body{
-    background-color: var(--cor-5);
+    background-color: var(--cor-2);
     margin: 0;
     
   }
@@ -40,11 +40,11 @@
   .primeiro{
     color: var(--cor-4);
     margin-left: 2%;
-    width: 50%;
+    width: auto;
     font-size: 36px;
     align-items: center;
     margin-top: 180px;
-      
+    
   }
   .segundo{
     color: var(--cor-4);
@@ -59,14 +59,79 @@
   }
   
   h3{
-    color: var(--cor-1);
+    color: black;
     font-size: 26px;
   }
   .farm{
     margin-right: 1600px;
     color: var(--cor-5);
   }
-  .butin{
-    width: 20%;
+  
+  
+  .bem-vindo{
+  
+      color: var(--cor-4);
+      font-size: 56px;
+
+  }
+  h2{
+    color: var(--cor-3);
+    font-size: 36px;
+  }
+  .camisa{
+    margin-top: -30%;
+    width: 30%;
+    margin-left: 58%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 10px;
+  }
+
+  button {
+    align-items: center;
+    background-image: linear-gradient(144deg, var(--cor-6), var(--cor-1) 50%, var(--cor-6));
+    border: 0;
+    border-radius: 8px;
+    box-shadow: var(--cor-4) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: flex;
+    font-size: 18px;
+    justify-content: flex-end;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-left: 67%;
+    margin-top: 40px;
   }
   
+  button:active,
+  button:hover {
+    outline: 0;
+  }
+  
+  button span {
+    background-color: var(--cor-6);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+  }
+  
+  button:hover span {
+    background: none;
+  }
+  
+  button:active {
+    transform: scale(0.9);
+  }
