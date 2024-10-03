@@ -7,10 +7,7 @@ function Bem_vindo() {
   return (
     <div>
 
-<header className='header'>
-<img src="farmarcia-logo.png" alt="" /> 
-<h1 className='farm'>Farmárcia</h1>
-</header>
+
 
  <div className='primeiro'>
 <h1 className="bem-vindo">Bem Vindo a Farmárcia</h1>
@@ -29,7 +26,8 @@ Local: [rua astrogildo da silva pereira dos santos]</h2>
 </div> 
 <div>
 <img src="farmarcia-camisetas.png" alt="camisa" className="camisa" />
-<button onClick={() => {(setPagina(<Tela_inicial/>))}}><span className="text">Confirme sua presença</span></button>
+
+
 </div>
     </div>
   )

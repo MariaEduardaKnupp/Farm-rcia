@@ -63,8 +63,9 @@
     font-size: 26px;
   }
   .farm{
-    margin-right: 1600px;
+    margin-right: 1150px;
     color: var(--cor-5);
+
   }
   
   
@@ -79,8 +80,8 @@
     font-size: 36px;
   }
   .camisa{
-    margin-top: -30%;
-    width: 30%;
+    margin-top: -27%;
+    width: 37%;
     margin-left: 58%;
     display: flex;
     align-items: center;
@@ -90,18 +91,55 @@
 
   button {
     align-items: center;
-    background-image: linear-gradient(144deg, var(--cor-6), var(--cor-1) 50%, var(--cor-6));
+    background-image: linear-gradient(144deg, var(--cor-6), var(--cor-2) 50%, var(--cor-6));
     border: 0;
     border-radius: 8px;
     box-shadow: var(--cor-4) 0 15px 30px -5px;
     box-sizing: border-box;
-    color: #ffffff;
+    color: var(--cor-4);
     display: flex;
-    font-size: 18px;
-    justify-content: flex-end;
+    font-size: 22px;
+    justify-content: center;
     line-height: 1em;
     max-width: 100%;
-    min-width: 140px;
+    min-width: 160px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-left: 2%;
+    margin-top: 2px;
+    width: 10px;
+    margin-right: 20px;
+    height: 50px;
+  }
+  .sistema{
+    margin-top: 200px;
+    margin-left: 20px;
+  }
+  .fila{
+    color: var(--cor-4);
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  .senhas{
+    align-items: center;
+    background-image: linear-gradient(144deg, var(--cor-6), var(--cor-2) 50%, var(--cor-6));
+    border: 0;
+    border-radius: 8px;
+    box-shadow: var(--cor-4) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: var(--cor-4);
+    display: inline-block;
+    font-size: 22px;
+    justify-content: space-around;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 160px;
     padding: 3px;
     text-decoration: none;
     user-select: none;
@@ -112,6 +150,9 @@
     transition: all 0.3s;
     margin-left: 67%;
     margin-top: 40px;
+    width: 290px;
+    margin-left: 30px;
+    height: 50px;
   }
   
   button:active,
